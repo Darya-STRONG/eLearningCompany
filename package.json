@@ -1,0 +1,16 @@
+{
+  "name": "eLearningCompany",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "npx gulp start-server",
+    "build": "npx gulp default"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
