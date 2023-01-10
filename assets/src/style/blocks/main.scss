@@ -1,0 +1,122 @@
+.bg-imageHero {
+  background: url(../../img/header_item/Hero.png) no-repeat center top ;
+  min-height: 681px;
+  width: 100%;
+  padding-top:103px;
+  background-size:100% ;
+
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+}
+
+.bg-imageServices {
+  background-image: url(../../img/header_item/Services.png);
+  min-width: 238px;
+  min-height: 238px;
+  border: 0;
+
+}
+.bg-imageDesing {
+  background-image: url(../../img/header_item/Desing.png);
+  min-width: 238px;
+  min-height: 238px;
+}
+.bg-imageDevelopment {
+  background-image: url(../../img/header_item/Development.png);
+  min-width: 238px;
+  min-height: 238px;
+}
+.bg-imagePriceQuote {
+  background-image: url(../../img/header_item/PriceQuote.png);
+  min-width: 238px;
+  min-height: 238px;
+}
+.bg-imagePackages {
+  background-image: url(../../img/header_item/Packages.png);
+  min-width: 238px;
+  min-height: 238px;
+}
+.bg-imageRectangle {
+  background-image: url(../../img/header_item/Rectangle.png);
+  min-width: 238px;
+  min-height: 238px;
+
+}
+
+.bg-color {
+  background-color: #3D948E;
+  min-width: 238px;
+  min-height: 238px;
+}
+
+.card {
+  border-radius: 0;
+  border: 0;
+}
+
+.line {
+  max-width: 1175px;
+  height: 10px;
+  background-color: #3D948E;
+  margin: 0 auto;
+}
+
+.navbar {
+  column-gap: 81px;
+  &-nav {
+    column-gap: 20px;
+
+  }
+}
+
+.cards__header {
+  margin: 50px 0;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+  color: #999B9A;
+  margin-top: 50px;
+}
+.card {
+  background-color:#F5F5F5;
+
+  &-img-top {
+    display: block;
+    margin: 0 auto;
+    width: 85px;
+    height: 85px;
+  }
+  &-title {
+    font-weight: 600;
+    color: #212121;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    max-width:138px;
+    display: block;
+    margin: 0 auto;
+  }
+  &-text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 145%;
+    color: #212121;
+    margin-top: 15px;
+  }
+  &__line {
+    max-width: 35px;
+    margin: 0 auto;
+    border: 3px solid #DCCE90;
+    margin-top: 10px;
+  }
+}
+
+.img-fill  {
+  fill: #29B4AD;
+}
+
+
+
