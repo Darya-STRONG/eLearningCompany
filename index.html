@@ -3,56 +3,56 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="./css/bootstrap.min.css">
-  <link rel="stylesheet" href="./css/style.min.css">
-  <title>eLearninigCompany</title>
+  <link rel="stylesheet" href="./dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./dist/css/style.min.css">
+  <title>eLearninig Company</title>
 </head>
 
 <body>
     <header> 
         <div class="bg-imageHero">
             <div class="container">  
-                <div class=" d-flex text-center flex-wrap justify-content-center mt-20px">
-                    <div class="card text-white bg-light" style=" min-width: 238px; min-height: 238px;">
-                        <div class="card-body">
-                            <img src="./img/header_img/LOGO.svg" alt="LOGO">
-                            <hr class="bg-warning">
-                            <h5 class="card-title center-block ">Taking Learning</h5>
+                <div class="d-flex text-center flex-wrap justify-content-center mt-20px">
+                    <div class="card">
+                        <div class="card__body">
+                            <img src="./assets/img/header_img/LOGO.svg" alt="LOGO">
+                            <hr class="card__line">
+                            <h5 class="card__title card__title-text">Taking Learning to the Next Level</h5>
                         </div>
                     </div>
-                    <div class="card text-white bg-imageServices" style="max-width: 238px;" >
-                        <div class="card-body">
-                            <h5 class="card-title">Services</h5>
+                    <div class="card card-services">
+                        <div class="card__body">
+                            <h5 class="card__title">Services</h5>
                         </div>
                     </div>
-                    <div class="card text-white bg-imageDesing" style="max-width:238px;">
-                        <div class="card-body">
-                        <h5 class="card-title">Instructional Design</h5>
+                    <div class="card card-instructionalDesign">
+                        <div class="card__body">
+                            <h5 class="card__title">Instructional Design</h5>
                         </div>
                     </div>
-                    <div class="card text-white bg-imageDevelopment" style="max-width:238px;">
-                        <div class="card-body">
-                        <h5 class="card-title text-center">eLearning Development</h5>
+                    <div class="card card-eLearningDevelopment">
+                        <div class="card__body">
+                            <h5 class="card__title text-center">eLearning Development</h5>
                         </div>
                     </div>
-                    <div class="card text-dark bg-imagePriceQuote" style="max-width: 238px;">
-                        <div class="card-body">
-                        <h5 class="card-title">eLearning Price Quot</h5>
+                    <div class="card card-eLearningPriceQuot">
+                        <div class="card__body">
+                            <h5 class="card__title">eLearning Price Quot</h5>
                         </div>
                     </div>
-                    <div class="card text-dark bg-imagePackages" style="max-width: 238px;">
-                        <div class="card-body">
-                        <h5 class="card-title">eLearning Packages</h5>
+                    <div class="card card-eLearningPackages">
+                        <div class="card__body">
+                            <h5 class="card__title">eLearning Packages</h5>
                         </div>
                     </div>
-                    <div class="card text-dark bg-imageRectangle" style="max-width: 238px;">
-                        <div class="card-body">
-                        <h5 class="card-title"></h5>
+                    <div class="card card-rectangle">
+                        <div class="card__body">
+                            <h5 class="card__title"></h5>
                         </div>
                     </div>
-                    <div class="card text-white bg-color" style="max-width: 238px;">
-                        <div class="card-body">
-                        <h5 class="card-title">Contact us</h5>
+                    <div class="card bg-color">
+                        <div class="card__body">
+                        <h5 class="card__title">Contact us</h5>
                         </div>
                     </div>
                 </div>
@@ -62,7 +62,7 @@
     </header>  
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="#">
-          <img src="./img/header_item/LOGO.svg" class="logo" alt="LOGO">
+          <img src="./assets/img/header_item/LOGO.svg" class="logo" alt="LOGO">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -100,7 +100,17 @@
           <h1 class="cards__header">Services We Provide</h1>
         </div>
         <div class="card">
-          <img class="card-img-top img-fill" src="./img/icons/design.svg" alt="design">
+          <svg width="85" height="85" viewBox="0 0 85 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="42.5" cy="42.5" r="42.5" fill="red"/>
+            <mask id="path-2-inside-1_1_67" fill="white">
+            <rect x="29.3231" y="20.0909" width="40.9952" height="26.9638" rx="0.728751"/>
+            </mask>
+            <rect x="29.3231" y="20.0909" width="40.9952" height="26.9638" rx="0.728751" stroke="white" stroke-width="4.37251" mask="url(#path-2-inside-1_1_67)"/>
+            <path d="M26.3948 30.2935H23.0973C22.6948 30.2935 22.3685 30.6197 22.3685 31.0222V55.4354C22.3685 55.8378 22.6948 56.1641 23.0973 56.1641H61.9029C62.3054 56.1641 62.6317 55.8378 62.6317 55.4354V50.3341" stroke="white" stroke-width="2.18625"/>
+            <path d="M18.7083 39.0385H15.4108C15.0083 39.0385 14.682 39.3647 14.682 39.7672V64.1804C14.682 64.5828 15.0083 64.9091 15.4108 64.9091H54.2164C54.6189 64.9091 54.9452 64.5828 54.9452 64.1804V59.0791" stroke="white" stroke-width="2.18625"/>
+            </svg>
+            
+          <!-- <img class="card-img-top img-fill" src="./assets/img/icons/design.svg" alt="design"> -->
           <div class="card-body">
             <h5 class="card-title">Instructional Design</h5>
             <div class="card__line"></div>
@@ -108,7 +118,7 @@
           </div>
         </div>
         <div class="card">
-          <img class="card-img-top" src="./img/icons/laptop.svg" alt="laptop">
+          <img class="card-img-top" src="./assets/img/icons/laptop.svg" alt="laptop">
           <div class="card-body">
             <h5 class="card-title">Elearninh Development</h5>
             <div class="card__line"></div>
@@ -116,7 +126,7 @@
           </div>
         </div>
         <div class="card">
-          <img class="card-img-top" src="./img/icons/laptop.svg" alt="Card image cap">
+          <img class="card-img-top" src="./assets/img/icons/laptop.svg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Mobile Learning</h5>
             <div class="card__line"></div>
@@ -124,7 +134,7 @@
           </div>
         </div>
         <div class="card">
-          <img class="card-img-top" src="./img/icons/instructor.svg" alt="instructor">
+          <img class="card-img-top" src="./assets/img/icons/instructor.svg" alt="instructor">
           <div class="card-body">
             <h5 class="card-title">Instructor-Ledtraining</h5>
             <div class="card__line"></div>
@@ -139,7 +149,7 @@
           <h1 class="cards__header">Services We Provide</h1>
         </div>
         <div class="card">
-          <img class="card-img-top " src="./img/icons/design.svg" alt="design">
+          <img class="card-img-top " src="./assets/img/icons/design.svg" alt="design">
           <div class="card-body">
             <h5 class="card-title">Instructional Design</h5>
             <div class="card__line"></div>
@@ -147,7 +157,7 @@
           </div>
         </div>
         <div class="card">
-          <img class="card-img-top" src="./img/icons/laptop.svg" alt="laptop">
+          <img class="card-img-top" src="./assets/img/icons/laptop.svg" alt="laptop">
           <div class="card-body">
             <h5 class="card-title">Elearninh Development</h5>
             <div class="card__line"></div>
@@ -155,7 +165,7 @@
           </div>
         </div>
         <div class="card">
-          <img class="card-img-top" src="./img/icons/laptop.svg" alt="Card image cap">
+          <img class="card-img-top" src="./assets/img/icons/laptop.svg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Mobile Learning</h5>
             <div class="card__line"></div>
@@ -163,7 +173,7 @@
           </div>
         </div>
         <div class="card">
-          <img class="card-img-top" src="./img/icons/instructor.svg" alt="instructor">
+          <img class="card-img-top" src="./assets/img/icons/instructor.svg" alt="instructor">
           <div class="card-body">
             <h5 class="card-title">Instructor-Ledtraining</h5>
             <div class="card__line"></div>
@@ -178,7 +188,7 @@
           <h1 class="cards__header">Services We Provide</h1>
         </div>
         <div class="card">
-          <img class="card-img-top " src="./img/icons/design.svg" alt="design">
+          <img class="card-img-top " src="./assets/img/icons/design.svg" alt="design">
           <div class="card-body">
             <h5 class="card-title">Instructional Design</h5>
             <div class="card__line"></div>
@@ -186,7 +196,7 @@
           </div>
         </div>
         <div class="card">
-          <img class="card-img-top" src="./img/icons/laptop.svg" alt="laptop">
+          <img class="card-img-top" src="./assets/img/icons/laptop.svg" alt="laptop">
           <div class="card-body">
             <h5 class="card-title">Elearninh Development</h5>
             <div class="card__line"></div>
@@ -194,7 +204,7 @@
           </div>
         </div>
         <div class="card">
-          <img class="card-img-top" src="./img/icons/laptop.svg" alt="Card image cap">
+          <img class="card-img-top" src="./assets/img/icons/laptop.svg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Mobile Learning</h5>
             <div class="card__line"></div>
@@ -202,7 +212,7 @@
           </div>
         </div>
         <div class="card">
-          <img class="card-img-top" src="./img/icons/instructor.svg" alt="instructor">
+          <img class="card-img-top" src="./assets/img/icons/instructor.svg" alt="instructor">
           <div class="card-body">
             <h5 class="card-title">Instructor-Ledtraining</h5>
             <div class="card__line"></div>
@@ -217,7 +227,7 @@
           <h1 class="title cards__header">Services We Provide</h1>
         </div>
         <div class="card">
-          <img class="card-img-top " src="./img/icons/design.svg" alt="design">
+          <img class="card-img-top " src="./assets/img/icons/design.svg" alt="design">
           <div class="card-body">
             <h5 class="card-title">Instructional Design</h5>
             <div class="card__line"></div>
@@ -225,7 +235,7 @@
           </div>
         </div>
         <div class="card">
-          <img class="card-img-top" src="./img/icons/laptop.svg" alt="laptop">
+          <img class="card-img-top" src="./assets/img/icons/laptop.svg" alt="laptop">
           <div class="card-body">
             <h5 class="card-title">Elearninh Development</h5>
             <div class="card__line"></div>
@@ -233,7 +243,7 @@
           </div>
         </div>
         <div class="card">
-          <img class="card-img-top" src="./img/icons/laptop.svg" alt="Card image cap">
+          <img class="card-img-top" src="./assets/img/icons/laptop.svg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Mobile Learning</h5>
             <div class="card__line"></div>
@@ -241,7 +251,7 @@
           </div>
         </div>
         <div class="card">
-          <img class="card-img-top" src="./img/icons/instructor.svg" alt="instructor">
+          <img class="card-img-top" src="./assets/img/icons/instructor.svg" alt="instructor">
           <div class="card-body">
             <h5 class="card-title">Instructor-Ledtraining</h5>
             <div class="card__line"></div>
@@ -259,7 +269,7 @@
           <p class="hero__card__content__text card-text">What We Can Do For You?</p>
           <a href="#" class="hero__card__content__btn btn btn-primary">Know more</a>
         </div>
-        <img src="./img/main_img/man.jpg" class="hero__card__content__img card-img-man" alt="man">
+        <img src="./assets/img/main_img/man.jpg" class="hero__card__content__img card-img-man" alt="man">
       </div>
     </div>
     <div class="line"></div>
@@ -270,7 +280,7 @@
       </div>
       <div class="cards">
           <div class="card flex-row ">
-            <img class="card-img-top img-people " src="./img/main_img/people1.png" alt="design">
+            <img class="card-img-top img-people " src="./assets/img/main_img/people1.png" alt="design">
             <div class="card text-white mb-3" style="max-width: 539px;">
               <div class="card__subtitle">We know learning inside and out</div>
               <div class="card-body">
@@ -280,15 +290,15 @@
               <div class="d-flex">
                 <ul class="list-group">
                   <li class="list-group-item d-flex align-items-center text-end">
-                    <img src="./img/main_img/check.svg" class="check-img" alt="">
+                    <img src="./assets/img/main_img/check.svg" class="check-img" alt="">
                     <p>Each project requires a unique approach, and we are ready for the challenge</p>
                   </li>
                   <li class="list-group-item d-flex align-items-center">
-                    <img src="./img/main_img/check.svg" class="check-img" alt="">
+                    <img src="./assets/img/main_img/check.svg" class="check-img" alt="">
                     <p>Our expertise in the training and development industry will make your project a success </p>
                   </li>
                   <li class="list-group-item d-flex align-items-center">
-                    <img src="./img/main_img/check.svg" class="check-img" alt="">
+                    <img src="./assets/img/main_img/check.svg" class="check-img" alt="">
                     <p>We know learning inside and out</p>
                   </li>
                 </ul>
@@ -305,21 +315,21 @@
               <div class="d-flex">
                 <ul class="list-group">
                   <li class="list-group-item d-flex align-items-center text-end">
-                    <img src="./img/main_img/check.svg" class="check-img" alt="">
+                    <img src="./assets/img/main_img/check.svg" class="check-img" alt="">
                     <p>Each project requires a unique approach, and we are ready for the challenge</p>
                   </li>
                   <li class="list-group-item d-flex align-items-center">
-                    <img src="./img/main_img/check.svg" class="check-img" alt="">
+                    <img src="./assets/img/main_img/check.svg" class="check-img" alt="">
                     <p>Our expertise in the training and development industry will make your project a success </p>
                   </li>
                   <li class="list-group-item d-flex align-items-center">
-                    <img src="./img/main_img/check.svg" class="check-img" alt="">
+                    <img src="./assets/img/main_img/check.svg" class="check-img" alt="">
                     <p>We know learning inside and out</p>
                   </li>
                 </ul>
               </div>
             </div>
-            <img class="card-img-top img-people " src="./img/main_img/people2.png" alt="design">
+            <img class="card-img-top img-people " src="./assets/img/main_img/people2.png" alt="design">
           </div>
       </div>
     </div>
@@ -352,7 +362,7 @@
         <div class="col">
           <div>
             <a href="#">
-              <img src="./img/header_img/LOGO.svg" alt="">
+              <img src="./assets/img/header_img/LOGO.svg" alt="">
             </a>
           </div>
         </div>

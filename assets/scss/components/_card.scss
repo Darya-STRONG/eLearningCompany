@@ -1,0 +1,49 @@
+.card {
+  align-items: center;
+  justify-content: center;
+  min-width:238px;
+  min-height:238px;
+  border-radius: 0;
+  border: 0;
+  &-services {
+    background-image: url(../../../assets/img/header_img/Services.png);
+  }
+  &-instructionalDesign  {
+    background-image: url(../../../assets/img/header_img/Desing.png);
+  }
+  &-eLearningDevelopment {
+    background-image: url(../../../assets/img/header_img/Development.png);
+  }
+  &-eLearningPriceQuot {
+    background-image: url(../../../assets/img/header_img/PriceQuote.png);
+  }
+  &-rectangle {
+    background-image: url(../../../assets/img/header_img/Rectangle.png);
+  }
+  &-eLearningPackages {
+    background-image: url(../../../assets/img/header_img/Packages.png);
+  }
+  &__line {
+    width: 175.93px;
+    border: 1.03845px solid #DED098;
+  }
+  &__title {
+    font-weight: 400;
+    font-size: 23.775px;
+    max-width: 150px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    &-text {
+      max-width: 129px;
+      color: #424242;
+      font-weight: 400;
+      font-size: 16.6425px;
+      line-height: 20px;
+      margin: 0 auto;
+    }
+  }
+  &__line {
+
+  }
+}
