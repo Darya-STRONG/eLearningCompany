@@ -1,4 +1,5 @@
 .cards-about {
+  margin-bottom: 140px;
   &__title {
     align-items: center;
     margin-top: 50px;
@@ -37,6 +38,8 @@
   &__item {
     display: flex;
     align-items: flex-start;
-
+    &-icon {
+      margin-right: 32px;
+    }
   }
 }

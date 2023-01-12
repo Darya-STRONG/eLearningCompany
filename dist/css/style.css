@@ -136,6 +136,9 @@ a:hover, a:focus {
   margin-top: 15px;
 }
 
+.cards-about {
+  margin-bottom: 140px;
+}
 .cards-about__title {
   align-items: center;
   margin-top: 50px;
@@ -175,6 +178,9 @@ a:hover, a:focus {
 .card-about__item {
   display: flex;
   align-items: flex-start;
+}
+.card-about__item-icon {
+  margin-right: 32px;
 }
 
 .header_theme_imageHero {
@@ -270,31 +276,31 @@ a:hover, a:focus {
   box-sizing: content-box;
 }
 
-.img-people {
-  width: 392px;
-  height: 392px;
-}
-
-.checklist {
-  max-width: 481px;
-}
-
-.check-img {
-  margin-right: 32px;
-}
-
-.list-group-item {
-  background-color: transparent;
-  border: 0;
-}
-
 .form {
   max-width: 433px;
   margin: 0 auto;
-  flex-direction: column;
 }
-.form-bg-color {
-  background-color: #3d948c;
+.form__header {
+  font-weight: 600;
+  font-size: 50px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 50px;
+}
+.form__subtitle {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 50px;
+}
+.form__inputs {
+  display: flex;
+  flex-direction: column;
+  row-gap: 23px;
+  font-weight: 300;
+  margin-top: 62px;
 }
 .form__btn {
   font-size: 20px;
@@ -310,23 +316,12 @@ a:hover, a:focus {
   margin-bottom: 62px;
   padding: 16px 0;
 }
-.form__title__header {
-  font-weight: 600;
-  font-size: 50px;
-  text-align: center;
-  color: #ffffff;
-  padding-top: 50px;
+.form__btn:hover {
+  background-color: rgb(19, 121, 121);
 }
-.form__title__subtitle {
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 24px;
-  text-align: center;
-  color: #ffffff;
-  margin-top: 50px;
-}
-.form__inputs {
-  margin-top: 62px;
+
+.form-bg-color {
+  background-color: #3d948c;
 }
 .form__input {
   background: #41a297;
