@@ -1,6 +1,9 @@
 .form {
   max-width: 433px;
   margin: 0 auto;
+  &-bg-color {
+    background-color: #3d948c;
+  }
   &__header {
     font-weight: 600;
     font-size: 50px;
@@ -22,7 +25,16 @@
     row-gap: 23px;
     font-weight: 300;
     margin-top: 62px;
-
+  }
+  &__input{
+    background: #41a297;
+    border-radius: 27.5px;
+    border: 0;
+    color: #ffffff;
+  }
+  &__input::placeholder {
+    color: #ffffff;
+    padding: 18px 35px;
   }
   &__btn {
     font-size: 20px;

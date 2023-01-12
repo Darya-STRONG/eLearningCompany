@@ -5,32 +5,3 @@
 @import "layout/layout";
 @import "layout/navigation";
 @import "layout/forms";
-
-// .list-group-item {
-//   background-color: transparent;
-//   border: 0;
-// }
-
-.form {
-  &-bg-color {
-    background-color: #3d948c;
-  }
-
-  &__input {
-    background: #41a297;
-    border-radius: 27.5px;
-    border: 0;
-    color: #ffffff;
-  }
-  &__input::placeholder {
-    color: #ffffff;
-    padding: 18px 35px;
-  }
-}
-
-.footer-bg-color {
-  background-color: #414141;
-}
-.bg-dar {
-  background-color: #383838;
-}

@@ -71,3 +71,42 @@
   background: #3D948E;
   margin: 0 auto;
 }
+
+.footer{
+  padding-bottom: 97px;
+  &_theme {
+    background-color: #414141;
+    width: 100%;
+  }
+  &__row{
+    display: flex;
+    justify-content: center;
+    padding-top: 66px;
+    column-gap: 100px
+  }
+  &__slogan {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #929292;
+  }
+  &__item{
+    margin-top: 10px;
+  }
+}
+
+.copyright {
+  &-bg{
+    background: #383838;
+  }
+  &__text{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    display: block;
+    color: #595959;
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
+}
