@@ -6,22 +6,22 @@
   border-radius: 0;
   border: 0;
 }
-.card-services {
+.card_services {
   background-image: url(../../../assets/img/header_img/Services.png);
 }
-.card-instructionalDesign {
+.card_instructionalDesign {
   background-image: url(../../../assets/img/header_img/Desing.png);
 }
-.card-eLearningDevelopment {
+.card_eLearningDevelopment {
   background-image: url(../../../assets/img/header_img/Development.png);
 }
-.card-eLearningPriceQuot {
+.card_eLearningPriceQuot {
   background-image: url(../../../assets/img/header_img/PriceQuote.png);
 }
-.card-rectangle {
+.card_rectangle {
   background-image: url(../../../assets/img/header_img/Rectangle.png);
 }
-.card-eLearningPackages {
+.card_eLearningPackages {
   background-image: url(../../../assets/img/header_img/Packages.png);
 }
 .card__line {
@@ -44,20 +44,45 @@
   line-height: 20px;
   margin: 0 auto;
 }
-.bg-imageHero {
-  background: url(../img/header_img/Hero.png) no-repeat center top;
+.card_bg_color {
+  background-color: #3d948e;
+}
+
+.header_theme_imageHero {
+  background-image: url(../../../assets/img/header_img/Hero.png);
   min-height: 681px;
   width: 100%;
   padding-top: 103px;
-  background-size: 100%;
   background-size: cover;
 }
-
-.line {
+.header__line {
   max-width: 1175px;
   height: 10px;
   background-color: #3d948e;
   margin: 0 auto;
+}
+
+.nav {
+  -moz-column-gap: 60px;
+       column-gap: 60px;
+  align-items: center;
+  justify-content: center;
+  background: #343434;
+}
+.nav__item {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.nav__link {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.nav__link:hover {
+  color: #8cbcdc;
 }
 
 .navbar {
@@ -100,12 +125,6 @@
 
 .img-fill {
   fill: #29b4ad;
-}
-
-.bg-color {
-  background-color: #3d948e;
-  min-width: 238px;
-  min-height: 238px;
 }
 
 .hero__card {

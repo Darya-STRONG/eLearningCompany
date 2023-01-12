@@ -1,23 +1,7 @@
 @import "components/card";
-.bg-imageHero {
-  background: url(../img/header_img/Hero.png) no-repeat center top;
-  min-height: 681px;
-  width: 100%;
-  padding-top: 103px;
-  background-size: 100%;
-
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.line {
-  max-width: 1175px;
-  height: 10px;
-  background-color: #3d948e;
-  margin: 0 auto;
-}
+@import "components/card-services";
+@import "layout/layout";
+@import "layout/navigation";
 
 .navbar {
   column-gap: 81px;
@@ -60,11 +44,6 @@
   fill: #29b4ad;
 }
 
-.bg-color {
-  background-color: #3d948e;
-  min-width: 238px;
-  min-height: 238px;
-}
 
 .hero {
   &__card {

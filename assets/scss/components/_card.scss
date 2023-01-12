@@ -5,22 +5,22 @@
   min-height:238px;
   border-radius: 0;
   border: 0;
-  &-services {
+  &_services {
     background-image: url(../../../assets/img/header_img/Services.png);
   }
-  &-instructionalDesign  {
+  &_instructionalDesign  {
     background-image: url(../../../assets/img/header_img/Desing.png);
   }
-  &-eLearningDevelopment {
+  &_eLearningDevelopment {
     background-image: url(../../../assets/img/header_img/Development.png);
   }
-  &-eLearningPriceQuot {
+  &_eLearningPriceQuot {
     background-image: url(../../../assets/img/header_img/PriceQuote.png);
   }
-  &-rectangle {
+  &_rectangle {
     background-image: url(../../../assets/img/header_img/Rectangle.png);
   }
-  &-eLearningPackages {
+  &_eLearningPackages {
     background-image: url(../../../assets/img/header_img/Packages.png);
   }
   &__line {
@@ -43,7 +43,8 @@
       margin: 0 auto;
     }
   }
-  &__line {
-
+  &_bg_color{
+    background-color: #3d948e;
   }
+
 }

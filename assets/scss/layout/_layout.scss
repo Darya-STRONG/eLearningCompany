@@ -1,0 +1,20 @@
+.header {
+  &_theme_imageHero {
+    background-image: url(../../../assets/img/header_img/Hero.png);
+    min-height: 681px;
+    width: 100%;
+    padding-top: 103px;
+  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  &__line {
+    max-width: 1175px;
+    height: 10px;
+    background-color: #3d948e;
+    margin: 0 auto;
+  }
+}
+

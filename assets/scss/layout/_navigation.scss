@@ -1,0 +1,23 @@
+.nav {
+  column-gap: 60px;
+  align-items: center;
+  justify-content: center;
+  background: #343434;
+
+  &__item{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+  &__link{
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  &__link:hover{
+    color: #8cbcdc;
+  }
+
+}
