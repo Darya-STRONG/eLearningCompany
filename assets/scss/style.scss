@@ -1,109 +1,17 @@
 @import "base/base";
 @import "components/card";
 @import "components/card-services";
+@import "components/card-about";
 @import "layout/layout";
 @import "layout/navigation";
 
-// .cards__header {
-//   margin: 50px 0;
-//   font-weight: 600;
-//   font-size: 50px;
-//   line-height: 60px;
-//   color: #999b9a;
-//   margin-top: 50px;
-// }
-// .card {
-//   &-img-top {
-//     display: block;
-//     margin: 0 auto;
-//     width: 85px;
-//     height: 85px;
-//   }
-//   &-text {
-//     font-weight: 300;
-//     font-size: 14px;
-//     line-height: 145%;
-//     color: #212121;
-//     margin-top: 15px;
-//   }
-//   &__line {
-//     max-width: 35px;
-//     margin: 0 auto;
-//     border: 3px solid #dcce90;
-//     margin-top: 10px;
-//   }
-// }
-
-// .img-fill {
-//   fill: #29b4ad;
-// }
-
-
-// .hero {
-//   &__card {
-//     &__title {
-//       font-weight: 600;
-//       font-size: 75px;
-//       line-height: 100%;
-//       text-transform: uppercase;
-//       color: #424242;
-//     }
-//     column-gap: 179px;
-//     &__content {
-//       &__title {
-//         font-weight: 600;
-//         font-size: 75px;
-//         line-height: 100%;
-//         text-transform: uppercase;
-//         color: #424242;
-//         width: 455px;
-//         margin-top: 90px;
-//       }
-//       &__text {
-//         font-weight: 250;
-//         font-size: 35px;
-//         line-height: 100%;
-//         text-transform: capitalize;
-//         color: #424242;
-//         margin-top: 5px;
-//       }
-//       &__btn {
-//         width: 130px;
-//         left: 247px;
-//         top: 3142px;
-//         background: #3d948c;
-//         padding: 12px 0;
-//         border-radius: 20px;
-//       }
-//     }
-//   }
-//   &__img {
-//     background: url(../img/main_img/hero.png) no-repeat center top;
-//     min-height: 681px;
-//     width: 100%;
-//     padding-top: 103px;
-//     background-size: 100%;
-
-//     -webkit-background-size: cover;
-//     -moz-background-size: cover;
-//     -o-background-size: cover;
-//     background-size: cover;
-//   }
-// }
 
 .img-people {
   width: 392px;
   height: 392px;
 }
 
-.card {
-  &__subtitle {
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 36px;
-    color: #424242;
-  }
-}
+
 .checklist {
   max-width: 481px;
 }

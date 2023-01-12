@@ -136,6 +136,47 @@ a:hover, a:focus {
   margin-top: 15px;
 }
 
+.cards-about__title {
+  align-items: center;
+  margin-top: 50px;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+  text-align: center;
+  color: #999B9A;
+}
+
+.card-about {
+  display: flex;
+  -moz-column-gap: 35px;
+       column-gap: 35px;
+  margin-top: 50px;
+}
+.card-about__title {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #424242;
+}
+.card-about__subtitle {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #424242;
+}
+.card-about__inner {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.card-about__list {
+  padding-left: 0;
+}
+.card-about__item {
+  display: flex;
+  align-items: flex-start;
+}
+
 .header_theme_imageHero {
   background-image: url(../../../assets/img/header_img/Hero.png);
   min-height: 681px;
@@ -191,6 +232,15 @@ a:hover, a:focus {
   height: 426px;
 }
 
+.line {
+  width: 1175px;
+  height: 10px;
+  left: 133px;
+  top: 3267px;
+  background: #3D948E;
+  margin: 0 auto;
+}
+
 .nav {
   -moz-column-gap: 60px;
        column-gap: 60px;
@@ -223,13 +273,6 @@ a:hover, a:focus {
 .img-people {
   width: 392px;
   height: 392px;
-}
-
-.card__subtitle {
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 36px;
-  color: #424242;
 }
 
 .checklist {

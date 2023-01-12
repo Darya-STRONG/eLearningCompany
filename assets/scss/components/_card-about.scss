@@ -1,0 +1,42 @@
+.cards-about {
+  &__title {
+    align-items: center;
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    color: #999B9A;
+  }
+}
+.card-about {
+  display: flex;
+  column-gap: 35px;
+  margin-top: 50px;
+
+  &__title{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #424242;
+  }
+  &__subtitle {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #424242;
+  }
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  &__list {
+    padding-left: 0;
+  }
+  &__item {
+    display: flex;
+    align-items: flex-start;
+
+  }
+}
