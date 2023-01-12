@@ -7,22 +7,22 @@
   border: 0;
 }
 .card_services {
-  background-image: url(../../../assets/img/header_img/Services.png);
+  background-image: url(../../assets/img/header_img/Services.png);
 }
 .card_instructionalDesign {
-  background-image: url(../../../assets/img/header_img/Desing.png);
+  background-image: url(../../assets/img/header_img/Desing.png);
 }
 .card_eLearningDevelopment {
-  background-image: url(../../../assets/img/header_img/Development.png);
+  background-image: url(../../assets/img/header_img/Development.png);
 }
 .card_eLearningPriceQuot {
-  background-image: url(../../../assets/img/header_img/PriceQuote.png);
+  background-image: url(../../assets/img/header_img/PriceQuote.png);
 }
 .card_rectangle {
-  background-image: url(../../../assets/img/header_img/Rectangle.png);
+  background-image: url(../../assets/img/header_img/Rectangle.png);
 }
 .card_eLearningPackages {
-  background-image: url(../../../assets/img/header_img/Packages.png);
+  background-image: url(../../assets/img/header_img/Packages.png);
 }
 .card__line {
   width: 175.93px;
@@ -83,15 +83,6 @@
 }
 .nav__link:hover {
   color: #8cbcdc;
-}
-
-.navbar {
-  -moz-column-gap: 81px;
-       column-gap: 81px;
-}
-.navbar-nav {
-  -moz-column-gap: 20px;
-       column-gap: 20px;
 }
 
 .cards__header {
