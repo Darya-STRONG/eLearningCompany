@@ -39,57 +39,57 @@
 // }
 
 
-.hero {
-  &__card {
-    // &__title {
-    //   font-weight: 600;
-    //   font-size: 75px;
-    //   line-height: 100%;
-    //   text-transform: uppercase;
-    //   color: #424242;
-    // }
-    // column-gap: 179px;
-    &__content {
-      &__title {
-        font-weight: 600;
-        font-size: 75px;
-        line-height: 100%;
-        text-transform: uppercase;
-        color: #424242;
-        width: 455px;
-        margin-top: 90px;
-      }
-      &__text {
-        font-weight: 250;
-        font-size: 35px;
-        line-height: 100%;
-        text-transform: capitalize;
-        color: #424242;
-        margin-top: 5px;
-      }
-      &__btn {
-        width: 130px;
-        left: 247px;
-        top: 3142px;
-        background: #3d948c;
-        padding: 12px 0;
-        border-radius: 20px;
-      }
-    }
-  }
-  &__img {
-    background: url(../img/main_img/hero.png) no-repeat center top;
-    min-height: 681px;
-    width: 100%;
-    padding-top: 103px;
-    background-size: 100%;
+// .hero {
+//   &__card {
+//     &__title {
+//       font-weight: 600;
+//       font-size: 75px;
+//       line-height: 100%;
+//       text-transform: uppercase;
+//       color: #424242;
+//     }
+//     column-gap: 179px;
+//     &__content {
+//       &__title {
+//         font-weight: 600;
+//         font-size: 75px;
+//         line-height: 100%;
+//         text-transform: uppercase;
+//         color: #424242;
+//         width: 455px;
+//         margin-top: 90px;
+//       }
+//       &__text {
+//         font-weight: 250;
+//         font-size: 35px;
+//         line-height: 100%;
+//         text-transform: capitalize;
+//         color: #424242;
+//         margin-top: 5px;
+//       }
+//       &__btn {
+//         width: 130px;
+//         left: 247px;
+//         top: 3142px;
+//         background: #3d948c;
+//         padding: 12px 0;
+//         border-radius: 20px;
+//       }
+//     }
+//   }
+//   &__img {
+//     background: url(../img/main_img/hero.png) no-repeat center top;
+//     min-height: 681px;
+//     width: 100%;
+//     padding-top: 103px;
+//     background-size: 100%;
 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-}
+//     -webkit-background-size: cover;
+//     -moz-background-size: cover;
+//     -o-background-size: cover;
+//     background-size: cover;
+//   }
+// }
 
 .img-people {
   width: 392px;
