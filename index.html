@@ -11,8 +11,8 @@
 <body>
     <header> 
         <div class="header header_theme_imageHero">
-            <div class="container">  
-                <div class="d-flex text-center flex-wrap justify-content-center mt-20px">
+            <div class="holder">  
+                <div class="d-flex text-center flex-wrap justify-content-center">
                     <div class="card">
                         <div class="card__body">
                             <img src="./assets/img/header_img/LOGO.svg" alt="LOGO">
@@ -61,9 +61,8 @@
         <div class="header__line"></div>
     </header>  
     <nav class="nav">
-      <a class="nav__link">
-          <img src="./assets/img/header_img/LOGO.svg" class="logo" alt="logo">
-      </a>
+      <div class="holder d-flex">
+        <img src="./assets/img/header_img/LOGO.svg" class="nav__logo" alt="logo">
         <ul class="nav__list">
           <li class="nav__item nav__item_current">
             <a class="nav__link" href="#">Home <span class="sr-only"></span></a>
@@ -87,56 +86,285 @@
             <a class="nav__link" href="#">Contact</a>
           </li>
         </ul>
+      </div>
     </nav>  
   <main>
-    <div class="container">
-      <div class="cards card-deck text-center">
-        <div class="col-lg-12 centered">
-          <h1 class="cards__header">Services We Provide</h1>
-        </div>
-        <div class="card">
-          <svg width="85" height="85" viewBox="0 0 85 85" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="42.5" cy="42.5" r="42.5" fill="red"/>
+    <div class="cards-services holder">
+      <h1 class=" cards-services__title">Services We Provide</h1>
+      <div class="cards-services__content text-center">
+        <div class="card-services">
+          <svg class="card-services__icon" width="85" height="85" viewBox="0 0 85 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="42.5" cy="42.5" r="42.5" fill="#DCCE90"/>
             <mask id="path-2-inside-1_1_67" fill="white">
             <rect x="29.3231" y="20.0909" width="40.9952" height="26.9638" rx="0.728751"/>
             </mask>
             <rect x="29.3231" y="20.0909" width="40.9952" height="26.9638" rx="0.728751" stroke="white" stroke-width="4.37251" mask="url(#path-2-inside-1_1_67)"/>
             <path d="M26.3948 30.2935H23.0973C22.6948 30.2935 22.3685 30.6197 22.3685 31.0222V55.4354C22.3685 55.8378 22.6948 56.1641 23.0973 56.1641H61.9029C62.3054 56.1641 62.6317 55.8378 62.6317 55.4354V50.3341" stroke="white" stroke-width="2.18625"/>
             <path d="M18.7083 39.0385H15.4108C15.0083 39.0385 14.682 39.3647 14.682 39.7672V64.1804C14.682 64.5828 15.0083 64.9091 15.4108 64.9091H54.2164C54.6189 64.9091 54.9452 64.5828 54.9452 64.1804V59.0791" stroke="white" stroke-width="2.18625"/>
-            </svg>
-          <div class="card-body">
-            <h5 class="card-title">Instructional Design</h5>
-            <div class="card__line"></div>
-            <p class="card-text">We provide full-service instructional design consulting. From standalone lessons to the series of courses, no job is too large or too small for us.</p>
+          </svg>
+            
+          <div class="card-services__body">
+            <h5 class="card-services__title">Instructional Design</h5>
+            <div class="card-services__line"></div>
+            <p class="card-services__text">We provide full-service instructional design consulting. From standalone lessons to the series of courses, no job is too large or too small for us.</p>
           </div>
         </div>
-        <div class="card">
-          <img class="card-img-top" src="./assets/img/icons/laptop.svg" alt="laptop">
-          <div class="card-body">
-            <h5 class="card-title">Elearninh Development</h5>
-            <div class="card__line"></div>
-            <p class="card-text">The eLearning products we create feature deep learner engagement and ensure high knowledge transfer.</p>
+        <div class="card-services">
+          <svg class="card-services__icon" width="85" height="85" viewBox="0 0 85 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="42.5" cy="42.5" r="42.5" fill="#DCCE90"/>
+            <rect x="16.5221" y="20.3858" width="51.9557" height="40.6063" rx="2.49103" stroke="white" stroke-width="2.13517"/>
+            <line x1="15.4545" y1="51.0191" x2="69.5454" y2="51.0191" stroke="white" stroke-width="2.13517"/>
+            <ellipse cx="42.5001" cy="56.3609" rx="2.84689" ry="2.84943" fill="white"/>
+            <line x1="42.5" y1="62.0597" x2="42.5" y2="64.9091" stroke="white" stroke-width="1.42344"/>
+            <line x1="59.5814" y1="65.9768" x2="25.4187" y2="65.9768" stroke="white" stroke-width="2.13517"/>
+          </svg>
+          <div class="card-services__body">
+            <h5 class="card-services__title">Elearninh Development</h5>
+            <div class="card-services__line"></div>
+            <p class="card-services__text">The eLearning products we create feature deep learner engagement and ensure high knowledge transfer.</p>
           </div>
         </div>
-        <div class="card">
-          <img class="card-img-top" src="./assets/img/icons/laptop.svg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Mobile Learning</h5>
-            <div class="card__line"></div>
-            <p class="card-text">Let us help you take your learning process anywhere your business may take you. Any place, any time, any device.</p>
+        <div class="card-services">
+          <svg class="card-services__icon" width="85" height="85" viewBox="0 0 85 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="42.5" cy="42.5" r="42.5" fill="#DCCE90"/>
+            <rect x="24.274" y="15.774" width="35.6792" height="53.1547" rx="6.18925" stroke="white" stroke-width="2.18444"/>
+            <line x1="36.6526" y1="20.1428" x2="47.5748" y2="20.1428" stroke="white" stroke-width="2.18444" stroke-linecap="round"/>
+            <line x1="23.9102" y1="24.5117" x2="61.0457" y2="24.5117" stroke="white" stroke-width="2.18444"/>
+            <line x1="23.182" y1="58.7346" x2="60.3175" y2="58.7346" stroke="white" stroke-width="2.18444"/>
+            <circle cx="42.114" cy="64.1958" r="2.91259" fill="white"/>
+          </svg>
+          <div class="card-services__body">
+            <h5 class="card-services__title">Mobile Learning</h5>
+            <div class="card-services__line"></div>
+            <p class="card-services__text">Let us help you take your learning process anywhere your business may take you. Any place, any time, any device.</p>
           </div>
         </div>
-        <div class="card">
-          <img class="card-img-top" src="./assets/img/icons/instructor.svg" alt="instructor">
-          <div class="card-body">
-            <h5 class="card-title">Instructor-Ledtraining</h5>
-            <div class="card__line"></div>
-            <p class="card-text">We are experts at developing a classroom curriculum that meets your business needs and exceeds even your highest expectations.</p>
+        <div class="card-services">
+          <svg class="card-services__icon" width="85" height="85" viewBox="0 0 85 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="42.5" cy="42.5" r="42.5" fill="#DCCE90"/>
+            <path d="M33.9528 24.885V15.4546H68.7729V36.4917H60.4306L51.3628 45.5594V36.4917H45.5595" stroke="white" stroke-width="2.17625"/>
+            <circle cx="45.1966" cy="27.4239" r="1.08813" fill="white"/>
+            <circle cx="50.9999" cy="27.4239" r="1.08813" fill="white"/>
+            <circle cx="56.8033" cy="27.4239" r="1.08813" fill="white"/>
+            <path d="M41.5696 41.9323C41.5696 47.6481 37.4083 52.0882 32.5019 52.0882C27.5955 52.0882 23.4342 47.6481 23.4342 41.9323C23.4342 36.2166 27.5955 31.7765 32.5019 31.7765C37.4083 31.7765 41.5696 36.2166 41.5696 41.9323Z" stroke="white" stroke-width="2.17625"/>
+            <path d="M22.7086 41.5696C24.764 42.295 29.8903 42.5127 33.9526 37.5798C35.1133 42.2225 39.9978 42.1741 42.2949 41.5696" stroke="white" stroke-width="2.17625"/>
+            <path d="M28.1493 51.3627V56.4407C23.9177 57.4079 15.4545 60.1403 15.4545 63.3321C15.4545 66.524 15.4545 68.531 15.4545 69.1355H50.2746V64.3368C50.2746 63.6794 50.1074 63.0258 49.6896 62.5182C48.0574 60.5356 44.1316 57.4486 37.5798 56.4407C37.5798 52.6685 37.5798 50.7582 37.5798 50.6373" stroke="white" stroke-width="2.17625"/>
+          </svg>
+            <div class="card-services__body">
+            <h5 class="card-services__title">Instructor-Ledtraining</h5>
+            <div class="card-services__line"></div>
+            <p class="card-services__text">We are experts at developing a classroom curriculum that meets your business needs and exceeds even your highest expectations.</p>
           </div>
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="cards-services holder">
+      <h1 class=" cards-services__title">Services We Provide</h1>
+      <div class="cards-services__content text-center">
+        <div class="card-services">
+          <svg class="card-services__icon" width="85" height="85" viewBox="0 0 85 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="42.5" cy="42.5" r="42.5" fill="#29B4AD"/>
+            <mask id="path-2-inside-1_1_67" fill="white">
+            <rect x="29.3231" y="20.0909" width="40.9952" height="26.9638" rx="0.728751"/>
+            </mask>
+            <rect x="29.3231" y="20.0909" width="40.9952" height="26.9638" rx="0.728751" stroke="white" stroke-width="4.37251" mask="url(#path-2-inside-1_1_67)"/>
+            <path d="M26.3948 30.2935H23.0973C22.6948 30.2935 22.3685 30.6197 22.3685 31.0222V55.4354C22.3685 55.8378 22.6948 56.1641 23.0973 56.1641H61.9029C62.3054 56.1641 62.6317 55.8378 62.6317 55.4354V50.3341" stroke="white" stroke-width="2.18625"/>
+            <path d="M18.7083 39.0385H15.4108C15.0083 39.0385 14.682 39.3647 14.682 39.7672V64.1804C14.682 64.5828 15.0083 64.9091 15.4108 64.9091H54.2164C54.6189 64.9091 54.9452 64.5828 54.9452 64.1804V59.0791" stroke="white" stroke-width="2.18625"/>
+          </svg>
+            
+          <div class="card-services__body">
+            <h5 class="card-services__title">Instructional Design</h5>
+            <div class="card-services__line card-services__line_color_green"></div>
+            <p class="card-services__text">We provide full-service instructional design consulting. From standalone lessons to the series of courses, no job is too large or too small for us.</p>
+          </div>
+        </div>
+        <div class="card-services">
+          <svg class="card-services__icon" width="85" height="85" viewBox="0 0 85 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="42.5" cy="42.5" r="42.5"  fill="#29B4AD"/>
+            <rect x="16.5221" y="20.3858" width="51.9557" height="40.6063" rx="2.49103" stroke="white" stroke-width="2.13517"/>
+            <line x1="15.4545" y1="51.0191" x2="69.5454" y2="51.0191" stroke="white" stroke-width="2.13517"/>
+            <ellipse cx="42.5001" cy="56.3609" rx="2.84689" ry="2.84943" fill="white"/>
+            <line x1="42.5" y1="62.0597" x2="42.5" y2="64.9091" stroke="white" stroke-width="1.42344"/>
+            <line x1="59.5814" y1="65.9768" x2="25.4187" y2="65.9768" stroke="white" stroke-width="2.13517"/>
+          </svg>
+          <div class="card-services__body">
+            <h5 class="card-services__title">Elearninh Development</h5>
+            <div class="card-services__line card-services__line_color_green"></div>
+            <p class="card-services__text">The eLearning products we create feature deep learner engagement and ensure high knowledge transfer.</p>
+          </div>
+        </div>
+        <div class="card-services">
+          <svg class="card-services__icon" width="85" height="85" viewBox="0 0 85 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="42.5" cy="42.5" r="42.5" fill="#29B4AD"/>
+            <rect x="24.274" y="15.774" width="35.6792" height="53.1547" rx="6.18925" stroke="white" stroke-width="2.18444"/>
+            <line x1="36.6526" y1="20.1428" x2="47.5748" y2="20.1428" stroke="white" stroke-width="2.18444" stroke-linecap="round"/>
+            <line x1="23.9102" y1="24.5117" x2="61.0457" y2="24.5117" stroke="white" stroke-width="2.18444"/>
+            <line x1="23.182" y1="58.7346" x2="60.3175" y2="58.7346" stroke="white" stroke-width="2.18444"/>
+            <circle cx="42.114" cy="64.1958" r="2.91259" fill="white"/>
+          </svg>
+          <div class="card-services__body">
+            <h5 class="card-services__title">Mobile Learning</h5>
+            <div class="card-services__line card-services__line_color_green"></div>
+            <p class="card-services__text">Let us help you take your learning process anywhere your business may take you. Any place, any time, any device.</p>
+          </div>
+        </div>
+        <div class="card-services">
+          <svg class="card-services__icon" width="85" height="85" viewBox="0 0 85 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="42.5" cy="42.5" r="42.5"  fill="#29B4AD"/>
+            <path d="M33.9528 24.885V15.4546H68.7729V36.4917H60.4306L51.3628 45.5594V36.4917H45.5595" stroke="white" stroke-width="2.17625"/>
+            <circle cx="45.1966" cy="27.4239" r="1.08813" fill="white"/>
+            <circle cx="50.9999" cy="27.4239" r="1.08813" fill="white"/>
+            <circle cx="56.8033" cy="27.4239" r="1.08813" fill="white"/>
+            <path d="M41.5696 41.9323C41.5696 47.6481 37.4083 52.0882 32.5019 52.0882C27.5955 52.0882 23.4342 47.6481 23.4342 41.9323C23.4342 36.2166 27.5955 31.7765 32.5019 31.7765C37.4083 31.7765 41.5696 36.2166 41.5696 41.9323Z" stroke="white" stroke-width="2.17625"/>
+            <path d="M22.7086 41.5696C24.764 42.295 29.8903 42.5127 33.9526 37.5798C35.1133 42.2225 39.9978 42.1741 42.2949 41.5696" stroke="white" stroke-width="2.17625"/>
+            <path d="M28.1493 51.3627V56.4407C23.9177 57.4079 15.4545 60.1403 15.4545 63.3321C15.4545 66.524 15.4545 68.531 15.4545 69.1355H50.2746V64.3368C50.2746 63.6794 50.1074 63.0258 49.6896 62.5182C48.0574 60.5356 44.1316 57.4486 37.5798 56.4407C37.5798 52.6685 37.5798 50.7582 37.5798 50.6373" stroke="white" stroke-width="2.17625"/>
+          </svg>
+            <div class="card-services__body">
+            <h5 class="card-services__title">Instructor-Ledtraining</h5>
+            <div class="card-services__line card-services__line_color_green"></div>
+            <p class="card-services__text">We are experts at developing a classroom curriculum that meets your business needs and exceeds even your highest expectations.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cards-services holder">
+      <h1 class=" cards-services__title">Services We Provide</h1>
+      <div class="cards-services__content text-center">
+        <div class="card-services">
+          <svg class="card-services__icon" width="85" height="85" viewBox="0 0 85 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="42.5" cy="42.5" r="42.5" fill="none" stroke="#29B4AD" stroke-width="2"/>
+            <mask id="path-2-inside-1_1_67" fill="white">
+            <rect x="29.3231" y="20.0909" width="40.9952" height="26.9638" rx="0.728751"/>
+            </mask>
+            <rect x="29.3231" y="20.0909" width="40.9952" height="26.9638" rx="0.728751" stroke="#29B4AD" stroke-width="4.37251" mask="url(#path-2-inside-1_1_67)"/>
+            <path d="M26.3948 30.2935H23.0973C22.6948 30.2935 22.3685 30.6197 22.3685 31.0222V55.4354C22.3685 55.8378 22.6948 56.1641 23.0973 56.1641H61.9029C62.3054 56.1641 62.6317 55.8378 62.6317 55.4354V50.3341" stroke="#29B4AD" stroke-width="2.18625"/>
+            <path d="M18.7083 39.0385H15.4108C15.0083 39.0385 14.682 39.3647 14.682 39.7672V64.1804C14.682 64.5828 15.0083 64.9091 15.4108 64.9091H54.2164C54.6189 64.9091 54.9452 64.5828 54.9452 64.1804V59.0791" stroke="#29B4AD" stroke-width="2.18625"/>
+          </svg>
+          <div class="card-services__body">
+            <h5 class="card-services__title">Instructional Design</h5>
+            <div class="card-services__line card-services__line_color_green"></div>
+            <p class="card-services__text">We provide full-service instructional design consulting. From standalone lessons to the series of courses, no job is too large or too small for us.</p>
+          </div>
+        </div>
+        <div class="card-services">
+          <svg  class="card-services__icon" width="85" height="85" viewBox="0 0 85 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="42.5" cy="42.5" r="42.5" fill="none" stroke="#29B4AD" stroke-width="2"/>
+            <rect x="16.5221" y="20.3858" width="51.9557" height="40.6063" rx="2.49103" stroke="#29B4AD" stroke-width="2.13517"/>
+            <line x1="15.4545" y1="51.0191" x2="69.5454" y2="51.0191" stroke="#29B4AD" stroke-width="2.13517"/>
+            <ellipse cx="42.5001" cy="56.3609" rx="2.84689" ry="2.84943" fill="white"/>
+            <line x1="42.5" y1="62.0597" x2="42.5" y2="64.9091" stroke="#29B4AD" stroke-width="1.42344"/>
+            <line x1="59.5814" y1="65.9768" x2="25.4187" y2="65.9768" stroke="#29B4AD" stroke-width="2.13517"/>
+          </svg>
+          <div class="card-services__body">
+            <h5 class="card-services__title">Elearninh Development</h5>
+            <div class="card-services__line card-services__line_color_green"></div>
+            <p class="card-services__text">The eLearning products we create feature deep learner engagement and ensure high knowledge transfer.</p>
+          </div>
+        </div>
+        <div class="card-services">
+          <svg stroke="#29B4AD" class="card-services__icon" width="85" height="85" viewBox="0 0 85 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="42.5" cy="42.5" r="42.5" fill="none" stroke="#29B4AD" stroke-width="2"/>
+            <rect x="24.274" y="15.774" width="35.6792" height="53.1547" rx="6.18925" stroke="#29B4AD" stroke-width="2.18444"/>
+            <line x1="36.6526" y1="20.1428" x2="47.5748" y2="20.1428" stroke="#29B4AD" stroke-width="2.18444" stroke-linecap="round"/>
+            <line x1="23.9102" y1="24.5117" x2="61.0457" y2="24.5117" stroke="#29B4AD" stroke-width="2.18444"/>
+            <line x1="23.182" y1="58.7346" x2="60.3175" y2="58.7346" stroke="#29B4AD" stroke-width="2.18444"/>
+            <circle cx="42.114" cy="64.1958" r="2.91259" fill="white"/>
+          </svg>
+          <div class="card-services__body">
+            <h5 class="card-services__title">Mobile Learning</h5>
+            <div class="card-services__line card-services__line_color_green"></div>
+            <p class="card-services__text">Let us help you take your learning process anywhere your business may take you. Any place, any time, any device.</p>
+          </div>
+        </div>
+        <div class="card-services">
+          <svg stroke="#29B4AD" stroke-width="2.17625" class="card-services__icon" width="85" height="85" viewBox="0 0 85 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="42.5" cy="42.5" r="42.5" fill="none"/>
+            <path d="M33.9528 24.885V15.4546H68.7729V36.4917H60.4306L51.3628 45.5594V36.4917H45.5595" stroke="#29B4AD" stroke-width="2.17625"/>
+            <circle cx="45.1966" cy="27.4239" r="1.08813" fill="white"/>
+            <circle cx="50.9999" cy="27.4239" r="1.08813" fill="white"/>
+            <circle cx="56.8033" cy="27.4239" r="1.08813" fill="white"/>
+            <path d="M41.5696 41.9323C41.5696 47.6481 37.4083 52.0882 32.5019 52.0882C27.5955 52.0882 23.4342 47.6481 23.4342 41.9323C23.4342 36.2166 27.5955 31.7765 32.5019 31.7765C37.4083 31.7765 41.5696 36.2166 41.5696 41.9323Z" stroke="#29B4AD" stroke-width="2.17625"/>
+            <path d="M22.7086 41.5696C24.764 42.295 29.8903 42.5127 33.9526 37.5798C35.1133 42.2225 39.9978 42.1741 42.2949 41.5696" stroke="#29B4AD" stroke-width="2.17625"/>
+            <path d="M28.1493 51.3627V56.4407C23.9177 57.4079 15.4545 60.1403 15.4545 63.3321C15.4545 66.524 15.4545 68.531 15.4545 69.1355H50.2746V64.3368C50.2746 63.6794 50.1074 63.0258 49.6896 62.5182C48.0574 60.5356 44.1316 57.4486 37.5798 56.4407C37.5798 52.6685 37.5798 50.7582 37.5798 50.6373" stroke="#29B4AD" stroke-width="2.17625"/>
+          </svg>
+            <div class="card-services__body">
+            <h5 class="card-services__title">Instructor-Ledtraining</h5>
+            <div class="card-services__line card-services__line_color_green"></div>
+            <p class="card-services__text">We are experts at developing a classroom curriculum that meets your business needs and exceeds even your highest expectations.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cards-services holder">
+      <h1 class=" cards-services__title">Services We Provide</h1>
+      <div class="cards-services__content text-center">
+        <div class="card-services">
+          <svg stroke="#B5B7B6" stroke-width="2" class="card-services__icon" width="85" height="85" viewBox="0 0 85 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="42.5" cy="42.5" r="42.5" fill="none"/>
+            <mask id="path-2-inside-1_1_67" fill="white">
+            <rect x="29.3231" y="20.0909" width="40.9952" height="26.9638" rx="0.728751"/>
+            </mask>
+            <rect x="29.3231" y="20.0909" width="40.9952" height="26.9638" rx="0.728751" stroke="#B5B7B6" stroke-width="4.37251" mask="url(#path-2-inside-1_1_67)"/>
+            <path d="M26.3948 30.2935H23.0973C22.6948 30.2935 22.3685 30.6197 22.3685 31.0222V55.4354C22.3685 55.8378 22.6948 56.1641 23.0973 56.1641H61.9029C62.3054 56.1641 62.6317 55.8378 62.6317 55.4354V50.3341" stroke="#B5B7B6" stroke-width="2.18625"/>
+            <path d="M18.7083 39.0385H15.4108C15.0083 39.0385 14.682 39.3647 14.682 39.7672V64.1804C14.682 64.5828 15.0083 64.9091 15.4108 64.9091H54.2164C54.6189 64.9091 54.9452 64.5828 54.9452 64.1804V59.0791" stroke="#B5B7B6" stroke-width="2.18625"/>
+          </svg>
+            
+          <div class="card-services__body">
+            <h5 class="card-services__title">Instructional Design</h5>
+            <div class="card-services__line card-services__line_color_great"></div>
+            <p class="card-services__text">We provide full-service instructional design consulting. From standalone lessons to the series of courses, no job is too large or too small for us.</p>
+          </div>
+        </div>
+        <div class="card-services">
+          <svg stroke="#B5B7B6" stroke-width="2" class="card-services__icon" width="85" height="85" viewBox="0 0 85 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="42.5" cy="42.5" r="42.5" fill="none"/>
+            <rect x="16.5221" y="20.3858" width="51.9557" height="40.6063" rx="2.49103" stroke="#B5B7B6" stroke-width="2.13517"/>
+            <line x1="15.4545" y1="51.0191" x2="69.5454" y2="51.0191" stroke="#B5B7B6" stroke-width="2.13517"/>
+            <ellipse cx="42.5001" cy="56.3609" rx="2.84689" ry="2.84943" fill="white"/>
+            <line x1="42.5" y1="62.0597" x2="42.5" y2="64.9091" stroke="#B5B7B6" stroke-width="1.42344"/>
+            <line x1="59.5814" y1="65.9768" x2="25.4187" y2="65.9768" stroke="#B5B7B6" stroke-width="2.13517"/>
+          </svg>
+          <div class="card-services__body">
+            <h5 class="card-services__title">Elearninh Development</h5>
+            <div class="card-services__line card-services__line_color_great"></div>
+            <p class="card-services__text">The eLearning products we create feature deep learner engagement and ensure high knowledge transfer.</p>
+          </div>
+        </div>
+        <div class="card-services">
+          <svg stroke="#B5B7B6" stroke-width="2" class="card-services__icon" width="85" height="85" viewBox="0 0 85 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="42.5" cy="42.5" r="42.5" fill="none"/>
+            <rect x="24.274" y="15.774" width="35.6792" height="53.1547" rx="6.18925" stroke="#B5B7B6" stroke-width="2.18444"/>
+            <line x1="36.6526" y1="20.1428" x2="47.5748" y2="20.1428" stroke="#B5B7B6" stroke-width="2.18444" stroke-linecap="round"/>
+            <line x1="23.9102" y1="24.5117" x2="61.0457" y2="24.5117" stroke="#B5B7B6" stroke-width="2.18444"/>
+            <line x1="23.182" y1="58.7346" x2="60.3175" y2="58.7346" stroke="#B5B7B6" stroke-width="2.18444"/>
+            <circle cx="42.114" cy="64.1958" r="2.91259" fill="#B5B7B6"/>
+          </svg>
+          <div class="card-services__body">
+            <h5 class="card-services__title">Mobile Learning</h5>
+            <div class="card-services__line card-services__line_color_great"></div>
+            <p class="card-services__text">Let us help you take your learning process anywhere your business may take you. Any place, any time, any device.</p>
+          </div>
+        </div>
+        <div class="card-services">
+          <svg  stroke="#B5B7B6" stroke-width="2" class="card-services__icon" width="85" height="85" viewBox="0 0 85 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="42.5" cy="42.5" r="42.5" fill="none"/>
+            <path d="M33.9528 24.885V15.4546H68.7729V36.4917H60.4306L51.3628 45.5594V36.4917H45.5595" stroke="#B5B7B6" stroke-width="2.17625"/>
+            <circle cx="45.1966" cy="27.4239" r="1.08813" fill="#B5B7B6"/>
+            <circle cx="50.9999" cy="27.4239" r="1.08813" fill="#B5B7B6"/>
+            <circle cx="56.8033" cy="27.4239" r="1.08813" fill="#B5B7B6"/>
+            <path d="M41.5696 41.9323C41.5696 47.6481 37.4083 52.0882 32.5019 52.0882C27.5955 52.0882 23.4342 47.6481 23.4342 41.9323C23.4342 36.2166 27.5955 31.7765 32.5019 31.7765C37.4083 31.7765 41.5696 36.2166 41.5696 41.9323Z" stroke="#B5B7B6" stroke-width="2.17625"/>
+            <path d="M22.7086 41.5696C24.764 42.295 29.8903 42.5127 33.9526 37.5798C35.1133 42.2225 39.9978 42.1741 42.2949 41.5696" stroke="#B5B7B6" stroke-width="2.17625"/>
+            <path d="M28.1493 51.3627V56.4407C23.9177 57.4079 15.4545 60.1403 15.4545 63.3321C15.4545 66.524 15.4545 68.531 15.4545 69.1355H50.2746V64.3368C50.2746 63.6794 50.1074 63.0258 49.6896 62.5182C48.0574 60.5356 44.1316 57.4486 37.5798 56.4407C37.5798 52.6685 37.5798 50.7582 37.5798 50.6373" stroke="#B5B7B6" stroke-width="2.17625"/>
+          </svg>
+            <div class="card-services__body">
+            <h5 class="card-services__title">Instructor-Ledtraining</h5>
+            <div class="card-services__line card-services__line_color_great"></div>
+            <p class="card-services__text">We are experts at developing a classroom curriculum that meets your business needs and exceeds even your highest expectations.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="container">
       <div class="cards card-deck text-center">
         <div class="col-lg-12 centered">
           <h1 class="cards__header">Services We Provide</h1>
@@ -174,8 +402,8 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="container">
+    </div> -->
+    <!-- <div class="container">
       <div class="cards card-deck text-center">
         <div class="col-lg-12 centered">
           <h1 class="cards__header">Services We Provide</h1>
@@ -213,8 +441,8 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="container">
+    </div> -->
+    <!-- <div class="container">
       <div class="cards card-deck text-center">
         <div class="col-lg-12 centered">
           <h1 class="title cards__header">Services We Provide</h1>
@@ -252,7 +480,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="hero card bg-dark text-white">
       <div class="hero__img"></div>
