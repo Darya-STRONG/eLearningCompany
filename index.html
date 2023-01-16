@@ -3,16 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="./dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="./dist/css/style.min.css">
+  <link rel="stylesheet" href="./dist/bootstrap.min.css">
+  <link rel="stylesheet" href="./dist/style.css">
   <title>eLearninig Company</title>
 </head>
 
 <body>
     <header> 
         <div class="header header_theme_imageHero">
-            <div class="holder">  
-                <div class="d-flex text-center flex-wrap justify-content-center">
+            <div class="container">  
+                <div class="cards d-flex text-center flex-wrap justify-content-center">
                     <div class="card">
                         <div class="card__body">
                             <img src="./assets/img/header_img/LOGO.svg" alt="LOGO">
@@ -60,36 +60,49 @@
         </div>
         <div class="line"></div>
     </header>  
-    <nav class="nav">
-      <div class="holder d-flex">
-        <img src="./assets/img/header_img/LOGO.svg" class="nav__logo" alt="logo">
-        <ul class="nav__list">
-          <li class="nav__item nav__item_current">
-            <a class="nav__link" href="#">Home <span class="sr-only"></span></a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="#">Services</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="#">Instructional Design</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="#">eLearning Development</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="#">eLearning Price Quote</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="#">eLearning Packages</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="#">Contact</a>
-          </li>
-        </ul>
+    
+    <!--Navbar-->
+    <nav class="nav navbar navbar-expand-lg ">
+      <div class="container">
+          <a  href="#">
+            <img class="navbar-brand" src="./assets/img/header_img/LOGO.svg" class="nav__logo" alt="logo" >
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="nav__list navbar-nav ms-auto">
+              <li class="nav__item nav__item_current navbar-item">
+                <a class="nav__link navbar-link" href="#Home">Home <span class="sr-only"></span></a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#services">Services</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#instructional">Instructional Design</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#development">eLearning Development</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#price">eLearning Price Quote</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#packages">eLearning Packages</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#contact">Contact</a>
+              </li>
+            </ul>
+
+          </div>
+        
       </div>
     </nav>  
   <main>
-    <div class="cards-services holder">
+    <div class="cards-services container">
       <h1 class=" cards-services__title">Services We Provide</h1>
       <div class="cards-services__content text-center">
         <div class="card-services">
@@ -158,7 +171,7 @@
         </div>
       </div>
     </div>
-    <div class="cards-services holder">
+    <div class="cards-services container">
       <h1 class=" cards-services__title">Services We Provide</h1>
       <div class="cards-services__content text-center">
         <div class="card-services">
@@ -227,7 +240,7 @@
         </div>
       </div>
     </div>
-    <div class="cards-services holder">
+    <div class="cards-services container">
       <h1 class=" cards-services__title">Services We Provide</h1>
       <div class="cards-services__content text-center">
         <div class="card-services">
@@ -295,7 +308,7 @@
         </div>
       </div>
     </div>
-    <div class="cards-services holder">
+    <div class="cards-services container">
       <h1 class=" cards-services__title">Services We Provide</h1>
       <div class="cards-services__content text-center">
         <div class="card-services">
@@ -364,18 +377,23 @@
         </div>
       </div>
     </div>
-    <div class="hero hero_thema_img card bg-dark text-white">
-      <div class="hero__card holder card-img-overlay d-flex justify-content-center">
-        <div class="hero__content">
-          <h5 class="hero__title">We Design Learning.</h5>
-          <p class="hero__text card-text">What We Can Do For You?</p>
-          <a href="#" class="hero__btn btn btn-primary">Know more</a>
+
+    <!--Showcase-->
+    <section class="hero hero-thema card text-center text-sm-start">
+      <div class="container">
+        <div class="d-sm-flex align-items-center">
+          <div class="hero__content">
+            <h1 class="hero__title">We Design Learning.</h1>
+            <p class="hero__text card-text">What We Can Do For You?</p>
+            <a href="#" class="hero__btn btn btn-primary">Know more</a>
+          </div>
+          <img src="./assets/img/main_img/man.jpg" class="hero__img img-fluid" alt="man">
         </div>
-        <img src="./assets/img/main_img/man.jpg" class="hero__img card-img-man" alt="man">
       </div>
-    </div>
+    </section>
+
     <div class="line"></div>
-    <div class="cards-about holder">
+    <div class="cards-about container">
       <h1 class="cards-about__title centered">Instructional Design</h1>
           <div class="card-about">
             <img class=" card-about__img" src="./assets/img/main_img/people1.png" alt="design">
@@ -420,7 +438,6 @@
             </div>
         </div>
     </div>
-
     
     <div class="form__wrapper form-bg-color">
       <div class="form__title">
@@ -430,13 +447,13 @@
       <form class="form">
         <div class="form__inputs" >
           <div class="form-group">
-            <input type="email" class="form-control form__input" id="exampleFormControlInput1" placeholder="Enter your Email Address">
+            <input type="email" class="form-control form__input" id="exampleFormControlInput1" placecontainer="Enter your Email Address">
           </div>
           <div class="form-group">
-            <input class="form-control form__input" type="text" placeholder="Enter your Name">
+            <input class="form-control form__input" type="text" placecontainer="Enter your Name">
           </div>
           <div class="form-group">
-            <textarea class="form-control form__input" id="exampleFormControlTextarea1" rows="6" placeholder="Your Message"></textarea>
+            <textarea class="form-control form__input" id="exampleFormControlTextarea1" rows="6" placecontainer="Your Message"></textarea>
           </div>
           <button type="submit" class="form__btn">Send</button>
         </div>
@@ -476,6 +493,6 @@
 
 </div>
 
-<script src="js/main.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

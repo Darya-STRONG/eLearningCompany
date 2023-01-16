@@ -1,13 +1,8 @@
 .nav {
-  column-gap: 60px;
-  align-items: center;
-  justify-content: center;
   background: #343434;
 
   &__item{
-    display: inline-block;
     margin-left: 15px;
-    margin-top: 15px;
   }
   &__link{
     font-weight: 300;
@@ -19,11 +14,4 @@
   &__link:hover{
     color: #8cbcdc;
   }
-  &__logo {
-    width: 107px;
-    height: 28px;
-    padding-top: 15px;
-    box-sizing: content-box;
-  }
-
 }

@@ -18,13 +18,13 @@
   }
 }
 .hero {
-  &__card{
-    margin-top: 24px;
-    align-items: center;
-  }
-  &_thema_img{
+  // &__card{
+  //   margin-top: 24px;
+  //   align-items: center;
+  // }
+  &-thema{
     background-image: url(../../../assets/img/main_img/hero.png);
-    min-height: 460px;;
+    min-height: 460px;
     width: 100%;
     margin-top: 105px;
   
@@ -59,18 +59,17 @@
     margin-top: 35px;
   }
   &__img {
-    width:259px;
-    height:426px;
+    max-width:259px;
   }
 }
-.line{
-  width: 1175px;
-  height: 10px;
-  left: 133px;
-  top: 3267px;
-  background: #3D948E;
-  margin: 0 auto;
-}
+// .line{
+//   width: 1175px;
+//   height: 10px;
+//   left: 133px;
+//   top: 3267px;
+//   background: #3D948E;
+//   margin: 0 auto;
+// }
 
 .footer{
   padding-bottom: 97px;
