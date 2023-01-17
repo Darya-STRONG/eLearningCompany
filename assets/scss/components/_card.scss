@@ -5,23 +5,67 @@
   min-height:237.75px;
   border-radius: 0;
   border: 0;
+  &_logo {
+    &:hover {
+      transform: scale(0.95);
+      transition: transform 200ms, filter 200ms;
+      filter: drop-shadow(1px 2px 10px rgba(128, 128, 128, 0.308));
+    }
+  }
+  &__contact {
+    &:hover {
+      transform: scale(0.95);
+      transition: transform 200ms, filter 200ms;
+      filter: drop-shadow(1px 2px 10px rgba(128, 128, 128, 0.308));
+    }
+  }
   &_services {
     background-image: url(../assets/img/header_img/Services.png);
+    &:hover {
+      transform: scale(0.95);
+      transition: transform 200ms, filter 200ms;
+      filter: drop-shadow(1px 2px 10px rgba(128, 128, 128, 0.308));
+    }
   }
   &_instructionalDesign  {
     background-image: url(../assets/img/header_img/Desing.png);
+    &:hover {
+      transform: scale(0.95);
+      transition: transform 200ms, filter 200ms;
+      filter: drop-shadow(1px 2px 10px rgba(128, 128, 128, 0.308));
+    }
   }
   &_eLearningDevelopment {
     background-image: url(../assets/img/header_img/Development.png);
+    &:hover {
+      transform: scale(0.95);
+      transition: transform 200ms, filter 200ms;
+      filter: drop-shadow(1px 2px 10px rgba(128, 128, 128, 0.308));
+    }
   }
   &_eLearningPriceQuot {
     background-image: url(../assets/img/header_img/PriceQuote.png);
+    &:hover {
+      transform: scale(0.95);
+      transition: transform 200ms, filter 200ms;
+      filter: drop-shadow(1px 2px 10px rgba(128, 128, 128, 0.308));
+    }
   }
   &_rectangle {
     background-image: url(../assets/img/header_img/Rectangle.png);
+    &:hover {
+      transform: scale(0.95);
+      transition: transform 200ms, filter 200ms;
+      filter: drop-shadow(1px 2px 10px rgba(128, 128, 128, 0.308));
+    }
   }
   &_eLearningPackages {
     background-image: url(../assets/img/header_img/Packages.png);
+    &:hover {
+      transform: scale(0.95);
+      transition: transform 200ms, filter 200ms;
+      filter: drop-shadow(1px 2px 10px rgba(128, 128, 128, 0.308));
+    }
   }
   &__line {
     width: 175.93px;

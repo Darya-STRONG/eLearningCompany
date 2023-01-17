@@ -40,23 +40,63 @@ a:hover, a:focus {
   border-radius: 0;
   border: 0;
 }
+.card_logo:hover {
+  transform: scale(0.95);
+  transition: transform 200ms, filter 200ms;
+  filter: drop-shadow(1px 2px 10px rgba(128, 128, 128, 0.308));
+}
+.card__contact:hover {
+  transform: scale(0.95);
+  transition: transform 200ms, filter 200ms;
+  filter: drop-shadow(1px 2px 10px rgba(128, 128, 128, 0.308));
+}
 .card_services {
   background-image: url(../assets/img/header_img/Services.png);
+}
+.card_services:hover {
+  transform: scale(0.95);
+  transition: transform 200ms, filter 200ms;
+  filter: drop-shadow(1px 2px 10px rgba(128, 128, 128, 0.308));
 }
 .card_instructionalDesign {
   background-image: url(../assets/img/header_img/Desing.png);
 }
+.card_instructionalDesign:hover {
+  transform: scale(0.95);
+  transition: transform 200ms, filter 200ms;
+  filter: drop-shadow(1px 2px 10px rgba(128, 128, 128, 0.308));
+}
 .card_eLearningDevelopment {
   background-image: url(../assets/img/header_img/Development.png);
+}
+.card_eLearningDevelopment:hover {
+  transform: scale(0.95);
+  transition: transform 200ms, filter 200ms;
+  filter: drop-shadow(1px 2px 10px rgba(128, 128, 128, 0.308));
 }
 .card_eLearningPriceQuot {
   background-image: url(../assets/img/header_img/PriceQuote.png);
 }
+.card_eLearningPriceQuot:hover {
+  transform: scale(0.95);
+  transition: transform 200ms, filter 200ms;
+  filter: drop-shadow(1px 2px 10px rgba(128, 128, 128, 0.308));
+}
 .card_rectangle {
   background-image: url(../assets/img/header_img/Rectangle.png);
 }
+.card_rectangle:hover {
+  transform: scale(0.95);
+  transition: transform 200ms, filter 200ms;
+  filter: drop-shadow(1px 2px 10px rgba(128, 128, 128, 0.308));
+}
 .card_eLearningPackages {
   background-image: url(../assets/img/header_img/Packages.png);
+}
+.card_eLearningPackages:hover {
+  transform: scale(0.95);
+  transition: transform 200ms, filter 200ms;
+  filter: drop-shadow(1px 2px 10px rgba(128, 128, 128, 0.308));
 }
 .card__line {
   width: 175.93px;
@@ -263,6 +303,7 @@ a:hover, a:focus {
 
 .header_theme_imageHero {
   background-image: url(../assets/img/header_img/Hero.png);
+  cursor: pointer;
   min-height: 681px;
   width: 100%;
   padding-top: 103px;

@@ -1,6 +1,7 @@
 .header {
   &_theme_imageHero {
     background-image: url(../assets/img/header_img/Hero.png);
+    cursor: pointer;
     min-height: 681px;
     width: 100%;
     padding-top: 103px;
@@ -20,6 +21,7 @@
 .hero {
   &-thema {
     background-image: url(../../../assets/img/main_img/hero.png);
+    
     min-height: 460px;
     width: 100%;
     margin-top: 105px;
