@@ -1,3 +1,5 @@
+@import "../base/typography";
+
 .cards-services {
   &__content {
     display: block;
@@ -11,7 +13,7 @@
     font-size: 50px;
     line-height: 60px;
     text-align: center;
-    color: #999B9A;
+    @include contrast('light', 'secondary');
     margin-top: 91px;
   }
 }
@@ -25,10 +27,10 @@
   }
   &__title{
     font-weight: 600;
-    font-size: 16px;
+    @include text-setting('xs');
     line-height: 19px;
     text-transform: uppercase;
-    color: #212121;
+    @include contrast('dark', 'primary');
     max-width: 128px;
     margin: 0 auto;
   }
@@ -49,9 +51,9 @@
   }
   &__text{
     font-weight: 300;
-    font-size: 14px;
+    @include text-setting('sm');
     line-height: 145%;
-    color: #212121;
+    @include contrast('dark', 'primary');
     margin-top: 15px;
   }
 }

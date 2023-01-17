@@ -1,15 +1,18 @@
+@import "../base/typography";
+
 .nav {
   background: #343434;
-
+  &__logo{
+    width: 107px;
+    height: 28px;
+  }
   &__item{
     margin-left: 15px;
   }
   &__link{
     font-weight: 300;
-    font-size: 13px;
-    line-height: 16px;
-    color: #FFFFFF;
-    text-decoration: none;
+    @include text-setting('xs');
+    @include contrast('light', 'primary');
   }
   &__link:hover{
     color: #8cbcdc;

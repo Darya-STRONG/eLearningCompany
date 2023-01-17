@@ -1,5 +1,5 @@
 
-// $shadow: 0px 0px 5px #8080806b;
+$shadow: 0px 0px 5px #8080806b;
 $shadow: 0px 0px 5px #8080803a;
 
 body.dark-theme {
@@ -11,37 +11,19 @@ body.dark-theme {
 
   background: $bg;
 
-  @mixin cardStyle() {
-    background: #4d4d4d;
-    box-shadow: $shadow;
-  }
-
-  .profile,
-  .skill,
-  .project,
-  .project__header,
-  .experience__section,
-  .hobbies,
-  .blog,
-  .blog__header {
-    @include cardStyle();
-  }
-
-  h1 {
-    color: $heading;
-  }
-
   h2,
   h3 {
     color: $heading2;
   }
 
-  p,
-  small {
+  p {
+    color: $text;
+  }
+  .card-services__title {
+    color: $text;
+  }
+  .card-about__subtitle {
     color: $text;
   }
 
-  .icon img {
-    filter: invert(360);
-  }
 }

@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;500;700&display=swap');
+@import "./typography";
+
 body {
-  font-family: 'MuseoModerno', cursive;
-  background-color: #F5F5F5;
-  font-weight: 300;
-  font-size: 16px;
-  color: #424242;
+  @include text-setting('base');
+  font-family: 'MuseoSansCyrl';
+  background-color: theme-color('background', 'base');
   min-width: 320px;
   
   -webkit-font-smoothing: antialiased;
@@ -15,8 +14,7 @@ body {
 }
 p {
   line-height: 145%;
-  color: #424242;
-
+  // color: #424242;
 }
 
 .centered {
@@ -27,8 +25,12 @@ a {
   text-decoration: none;
 }
 
+li::marker {
+  text-decoration: none;
+}
+
 a:hover, a:focus {
-  color: #7b7b7b;
+  // color: #7b7b7b;
   text-decoration: none;
 }
 

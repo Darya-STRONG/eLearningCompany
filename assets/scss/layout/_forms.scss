@@ -2,21 +2,18 @@
   max-width: 433px;
   margin: 0 auto;
   &-bg-color {
-    background-color: #3d948c;
+    background-color: theme-color('accent', 'base');
   }
   &__header {
     font-weight: 600;
     font-size: 50px;
     text-align: center;
-    color: #ffffff;
+    @include contrast('light', 'primary');
     padding-top: 50px;
   }
   &__subtitle {
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 24px;
     text-align: center;
-    color: #ffffff;
+    @include contrast('light', 'primary');
     margin-top: 50px;
   }
   &__inputs {
@@ -27,20 +24,19 @@
     margin-top: 62px;
   }
   &__input {
-    background: #41a297;
+    background: theme-color('accent', 'light');
     border-radius: 27.5px;
     border: 0;
-    color: #ffffff;
   }
-  &__input::placecontainer {
-    color: #ffffff;
+  &__input::placeholder {
+    @include contrast('light', 'primary');
     padding: 18px 35px;
   }
   &__btn {
     font-size: 20px;
     line-height: 24px;
     text-align: center;
-    color: #ffffff;
+    @include contrast('light', 'primary');
     background-color: transparent;
     border: 3px solid #ffffff;
     border-radius: 27.5px;

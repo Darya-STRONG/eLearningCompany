@@ -75,12 +75,11 @@
     font-weight: 400;
     font-size: 23.775px;
     max-width: 150px;
-    line-height: 29px;
-    text-align: center;
-    color: #FFFFFF;
+    @include contrast('light', 'primary');
+    // color: #FFFFFF;
     &-text {
       max-width: 129px;
-      color: #424242;
+      @include contrast('dark', 'secondary');
       font-weight: 400;
       font-size: 16.6425px;
       line-height: 20px;
@@ -88,7 +87,7 @@
     }
   }
   &_bg_color{
-    background-color: #3d948e;
+    background-color: theme-color('accent', 'base');
   }
 
 }

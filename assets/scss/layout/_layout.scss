@@ -1,3 +1,4 @@
+@import "../base/typography";
 .header {
   &_theme_imageHero {
     background-image: url(../assets/img/header_img/Hero.png);
@@ -14,7 +15,7 @@
   &__line {
     max-width: 1175px;
     height: 10px;
-    background-color: #3d948e;
+    background-color: theme-color('accent', 'base');
     margin: 0 auto;
   }
 }
@@ -36,20 +37,20 @@
     font-size: 75px;
     line-height: 100%;
     text-transform: uppercase;
-    color: #424242;
+    @include contrast('dark', 'secondary');
   }
   &__text {
     font-weight: 250;
     font-size: 35px;
     line-height: 100%;
     text-transform: capitalize;
-    color: #424242;
+    @include contrast('dark', 'secondary');
     margin-top: 5px;
   }
   &__btn {
     left: 247px;
     top: 3142px;
-    background: #3d948c;
+    background: theme-color('accent', 'base');
     border-radius: 20px;
     padding-top: 12px;
     padding-bottom: 12px;
@@ -64,7 +65,7 @@
   height: 10px;
   left: 133px;
   top: 3267px;
-  background: #3D948E;
+  background: theme-color('accent', 'base');
   margin: 0 auto;
 }
 
@@ -88,6 +89,8 @@
   }
   &__item {
     margin-top: 10px;
+    @include text-setting('sm');
+
   }
 }
 
@@ -101,7 +104,7 @@
     line-height: 17px;
     text-align: center;
     display: block;
-    color: #595959;
+    @include contrast('light', 'secondary');
     padding-top: 26px;
     padding-bottom: 26px;
   }

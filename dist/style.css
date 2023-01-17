@@ -1,10 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;500;700&display=swap");
+@import url(./MuseoSansCyrl/font.scss);
 body {
-  font-family: "MuseoModerno", cursive;
-  background-color: #F5F5F5;
-  font-weight: 300;
-  font-size: 16px;
-  color: #424242;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  font-family: "MuseoSansCyrl";
+  background-color: theme-color("background", "base");
   min-width: 320px;
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
@@ -16,7 +15,6 @@ body {
 
 p {
   line-height: 145%;
-  color: #424242;
 }
 
 .centered {
@@ -27,8 +25,11 @@ a {
   text-decoration: none;
 }
 
+li::marker {
+  text-decoration: none;
+}
+
 a:hover, a:focus {
-  color: #7b7b7b;
   text-decoration: none;
 }
 
@@ -106,9 +107,7 @@ a:hover, a:focus {
   font-weight: 400;
   font-size: 23.775px;
   max-width: 150px;
-  line-height: 29px;
-  text-align: center;
-  color: #FFFFFF;
+  color: rgb(255, 255, 255);
 }
 .card__title-text {
   max-width: 129px;
@@ -119,7 +118,7 @@ a:hover, a:focus {
   margin: 0 auto;
 }
 .card_bg_color {
-  background-color: #3d948e;
+  background-color: #3D948E;
 }
 
 .cards-services__content {
@@ -150,7 +149,8 @@ a:hover, a:focus {
 }
 .card-services__title {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
   line-height: 19px;
   text-transform: uppercase;
   color: #212121;
@@ -174,7 +174,8 @@ a:hover, a:focus {
 }
 .card-services__text {
   font-weight: 300;
-  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
   line-height: 145%;
   color: #212121;
   margin-top: 15px;
@@ -194,10 +195,12 @@ a:hover, a:focus {
 }
 
 .card-about {
-  display: flex;
   -moz-column-gap: 35px;
        column-gap: 35px;
   margin-top: 50px;
+}
+.card-about__text {
+  color: #424242;
 }
 .card-about__title {
   font-weight: 400;
@@ -232,21 +235,18 @@ a:hover, a:focus {
   margin: 0 auto;
 }
 .form-bg-color {
-  background-color: #3d948c;
+  background-color: #3D948E;
 }
 .form__header {
   font-weight: 600;
   font-size: 50px;
   text-align: center;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   padding-top: 50px;
 }
 .form__subtitle {
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 24px;
   text-align: center;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   margin-top: 50px;
 }
 .form__inputs {
@@ -257,20 +257,27 @@ a:hover, a:focus {
   margin-top: 62px;
 }
 .form__input {
-  background: #41a297;
+  background: #41A297;
   border-radius: 27.5px;
   border: 0;
-  color: #ffffff;
 }
-.form__input::placecontainer {
-  color: #ffffff;
+.form__input::-moz-placeholder {
+  color: rgb(255, 255, 255);
+  padding: 18px 35px;
+}
+.form__input:-ms-input-placeholder {
+  color: rgb(255, 255, 255);
+  padding: 18px 35px;
+}
+.form__input::placeholder {
+  color: rgb(255, 255, 255);
   padding: 18px 35px;
 }
 .form__btn {
   font-size: 20px;
   line-height: 24px;
   text-align: center;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   background-color: transparent;
   border: 3px solid #ffffff;
   border-radius: 27.5px;
@@ -287,15 +294,18 @@ a:hover, a:focus {
 .nav {
   background: #343434;
 }
+.nav__logo {
+  width: 107px;
+  height: 28px;
+}
 .nav__item {
   margin-left: 15px;
 }
 .nav__link {
   font-weight: 300;
-  font-size: 13px;
-  line-height: 16px;
-  color: #FFFFFF;
-  text-decoration: none;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  color: rgb(255, 255, 255);
 }
 .nav__link:hover {
   color: #8cbcdc;
@@ -312,7 +322,7 @@ a:hover, a:focus {
 .header__line {
   max-width: 1175px;
   height: 10px;
-  background-color: #3d948e;
+  background-color: #3D948E;
   margin: 0 auto;
 }
 
@@ -341,7 +351,7 @@ a:hover, a:focus {
 .hero__btn {
   left: 247px;
   top: 3142px;
-  background: #3d948c;
+  background: #3D948E;
   border-radius: 20px;
   padding-top: 12px;
   padding-bottom: 12px;
@@ -382,6 +392,8 @@ a:hover, a:focus {
 }
 .footer__item {
   margin-top: 10px;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .copyright-bg {
@@ -393,7 +405,7 @@ a:hover, a:focus {
   line-height: 17px;
   text-align: center;
   display: block;
-  color: #595959;
+  color: #999B9A;
   padding-top: 26px;
   padding-bottom: 26px;
 }
@@ -560,28 +572,16 @@ a:hover, a:focus {
 body.dark-theme {
   background: #575757;
 }
-body.dark-theme .profile,
-body.dark-theme .skill,
-body.dark-theme .project,
-body.dark-theme .project__header,
-body.dark-theme .experience__section,
-body.dark-theme .hobbies,
-body.dark-theme .blog,
-body.dark-theme .blog__header {
-  background: #4d4d4d;
-  box-shadow: 0px 0px 5px rgba(184, 184, 184, 0.2745098039);
-}
-body.dark-theme h1 {
-  color: #ffffff;
-}
 body.dark-theme h2,
 body.dark-theme h3 {
   color: #ebe0e0;
 }
-body.dark-theme p,
-body.dark-theme small {
+body.dark-theme p {
   color: #ffffff;
 }
-body.dark-theme .icon img {
-  filter: invert(360);
+body.dark-theme .card-services__title {
+  color: #ffffff;
+}
+body.dark-theme .card-about__subtitle {
+  color: #ffffff;
 }

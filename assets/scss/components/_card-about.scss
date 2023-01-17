@@ -11,21 +11,22 @@
   }
 }
 .card-about {
-  display: flex;
   column-gap: 35px;
   margin-top: 50px;
-
+  &__text {
+    @include contrast('dark', 'secondary');
+  }
   &__title{
     font-weight: 400;
     font-size: 30px;
     line-height: 36px;
-    color: #424242;
+    @include contrast('dark', 'secondary');
   }
   &__subtitle {
     font-weight: 400;
     font-size: 30px;
     line-height: 36px;
-    color: #424242;
+    @include contrast('dark', 'secondary');
   }
   &__inner {
     display: flex;
@@ -38,6 +39,7 @@
   &__item {
     display: flex;
     align-items: flex-start;
+
     &-icon {
       margin-right: 32px;
     }
