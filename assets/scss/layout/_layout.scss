@@ -4,7 +4,7 @@
     min-height: 681px;
     width: 100%;
     padding-top: 103px;
-  
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -22,18 +22,18 @@
   //   margin-top: 24px;
   //   align-items: center;
   // }
-  &-thema{
+  &-thema {
     background-image: url(../../../assets/img/main_img/hero.png);
     min-height: 460px;
     width: 100%;
     margin-top: 105px;
-  
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
   }
-  &__title{
+  &__title {
     font-weight: 600;
     font-size: 75px;
     line-height: 100%;
@@ -49,17 +49,16 @@
     margin-top: 5px;
   }
   &__btn {
-    width: 130px;
     left: 247px;
     top: 3142px;
-    background: #3D948C;
+    background: #3d948c;
     border-radius: 20px;
-    padding-top:12px;
-    padding-bottom:12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     margin-top: 35px;
   }
   &__img {
-    max-width:259px;
+    max-width: 259px;
   }
 }
 // .line{
@@ -71,17 +70,17 @@
 //   margin: 0 auto;
 // }
 
-.footer{
+.footer {
   padding-bottom: 97px;
   &_theme {
     background-color: #414141;
     width: 100%;
   }
-  &__row{
+  &__row {
     display: flex;
     justify-content: center;
     padding-top: 66px;
-    column-gap: 100px
+    column-gap: 100px;
   }
   &__slogan {
     font-weight: 300;
@@ -89,16 +88,16 @@
     line-height: 14px;
     color: #929292;
   }
-  &__item{
+  &__item {
     margin-top: 10px;
   }
 }
 
 .copyright {
-  &-bg{
+  &-bg {
     background: #383838;
   }
-  &__text{
+  &__text {
     font-weight: 300;
     font-size: 14px;
     line-height: 17px;

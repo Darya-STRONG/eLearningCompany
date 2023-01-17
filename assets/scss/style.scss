@@ -1,9 +1,6 @@
 @import "base/base";
-@import "components/card";
-@import "components/card-services";
-@import "components/card-about";
-@import "layout/layout";
-@import "layout/navigation";
-@import "layout/forms";
-@import "base/breakpoints"
+@import"./components/index";
+@import"./layout/index";
+@import "base/breakpoints";
+@import "abstracts/variables";
 
