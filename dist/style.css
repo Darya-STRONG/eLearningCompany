@@ -41,22 +41,22 @@ a:hover, a:focus {
   border: 0;
 }
 .card_services {
-  background-image: url(../../assets/img/header_img/Services.png);
+  background-image: url(../assets/img/header_img/Services.png);
 }
 .card_instructionalDesign {
-  background-image: url(../../assets/img/header_img/Desing.png);
+  background-image: url(../assets/img/header_img/Desing.png);
 }
 .card_eLearningDevelopment {
-  background-image: url(../../assets/img/header_img/Development.png);
+  background-image: url(../assets/img/header_img/Development.png);
 }
 .card_eLearningPriceQuot {
-  background-image: url(../../assets/img/header_img/PriceQuote.png);
+  background-image: url(../assets/img/header_img/PriceQuote.png);
 }
 .card_rectangle {
-  background-image: url(../../assets/img/header_img/Rectangle.png);
+  background-image: url(../assets/img/header_img/Rectangle.png);
 }
 .card_eLearningPackages {
-  background-image: url(../../assets/img/header_img/Packages.png);
+  background-image: url(../assets/img/header_img/Packages.png);
 }
 .card__line {
   width: 175.93px;
@@ -262,7 +262,7 @@ a:hover, a:focus {
 }
 
 .header_theme_imageHero {
-  background-image: url(../../../assets/img/header_img/Hero.png);
+  background-image: url(../assets/img/header_img/Hero.png);
   min-height: 681px;
   width: 100%;
   padding-top: 103px;
@@ -355,6 +355,11 @@ a:hover, a:focus {
   color: #595959;
   padding-top: 26px;
   padding-bottom: 26px;
+}
+
+.toggle {
+  position: fixed;
+  padding-left: 50px;
 }
 
 @media (min-width: 320px) {
@@ -510,4 +515,32 @@ a:hover, a:focus {
     display: block;
     margin-bottom: 0;
   }
+}
+body.dark-theme {
+  background: #575757;
+}
+body.dark-theme .profile,
+body.dark-theme .skill,
+body.dark-theme .project,
+body.dark-theme .project__header,
+body.dark-theme .experience__section,
+body.dark-theme .hobbies,
+body.dark-theme .blog,
+body.dark-theme .blog__header {
+  background: #4d4d4d;
+  box-shadow: 0px 0px 5px rgba(184, 184, 184, 0.2745098039);
+}
+body.dark-theme h1 {
+  color: #ffffff;
+}
+body.dark-theme h2,
+body.dark-theme h3 {
+  color: #ebe0e0;
+}
+body.dark-theme p,
+body.dark-theme small {
+  color: #ffffff;
+}
+body.dark-theme .icon img {
+  filter: invert(360);
 }
