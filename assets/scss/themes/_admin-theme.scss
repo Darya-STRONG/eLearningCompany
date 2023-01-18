@@ -1,41 +1,39 @@
-$theme-colors: (
-  'accent': (
-    'base': #3D948E,
-    'light': #41A297,
-    'dark': #123b39
-  ),
-  'background': (
-    'base': #F5F5F5,
-    'light': #fff,
-    'dark': #ddd
-  )
-);
+@forward "../abstracts/variables" show $theme-colors;
 
-@function theme-color($key: 'primary', $variant: 'base') {
-  $map: map-get($theme-colors, $key);
-  @return map-get($map, $variant);
-}
+// $theme-colors: (
+//   'accent': (
+//     'base': #3D948E,
+//     'light': #41A297,
+//     'dark': #123b39
+//   ),
+//   'background': (
+//     'base': #F5F5F5,
+//     'light': #fff,
+//     'dark': #ddd
+//   )
+// );
 
-$contrast-colors: (
-  'light': (
-    'primary': rgb(255, 255, 255),
-    'secondary': #999B9A,
-    // 'disabled': #929292,
-    // 'hint': rgba(255, 255, 255, .12)
-  ),
-  'dark': (
-    'primary': #212121,
-    'secondary': #424242,
-    // 'disabled': rgba(0, 0, 0, .38),
-    // 'hint': rgba(0, 0, 0, .12)
-  ),
-);
 
-@function contrast($background: 'light', $type: 'primary') {
-  $map: map-get($contrast-colors, $background);
-  @return map-get($map, $type);
-}
+// $contrast-colors: (
+//   'light': (
+//     'primary': rgb(255, 255, 255),
+//     'secondary': #999B9A,
+//     // 'disabled': #929292,
+//     // 'hint': rgba(255, 255, 255, .12)
+//   ),
+//   'dark': (
+//     'primary': #212121,
+//     'secondary': #424242,
+//     // 'disabled': rgba(0, 0, 0, .38),
+//     // 'hint': rgba(0, 0, 0, .12)
+//   ),
+// );
 
-@mixin contrast($background: 'light', $type: 'primary') {
-  color: contrast($background, $type)
-}
+// @function contrast($background: 'light', $type: 'primary') {
+//   $map: map-get($contrast-colors, $background);
+//   @return map-get($map, $type);
+// }
+
+// @mixin contrast($background: 'light', $type: 'primary') {
+//   color: contrast($background, $type)
+// }

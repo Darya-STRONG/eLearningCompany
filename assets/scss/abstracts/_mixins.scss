@@ -1,0 +1,10 @@
+//text-colors
+@mixin contrast($background: 'light', $type: 'primary') {
+  color: contrast($background, $type)
+}
+
+//typography
+@mixin text-setting($level) {
+  font-size: text-scale($level);
+  line-height: line-height($level);
+}

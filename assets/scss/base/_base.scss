@@ -1,5 +1,3 @@
-@import "./typography";
-
 body {
   @include text-setting('base');
   font-family: 'MuseoSansCyrl';

@@ -1,0 +1,63 @@
+//text-colors
+
+$contrast-colors: (
+  'light': (
+    'primary': rgb(255, 255, 255),
+    'secondary': #999B9A,
+    // 'disabled': #929292,
+    // 'hint': rgba(255, 255, 255, .12)
+  ),
+  'dark': (
+    'primary': #212121,
+    'secondary': #424242,
+    // 'disabled': rgba(0, 0, 0, .38),
+    // 'hint': rgba(0, 0, 0, .12)
+  ),
+);
+
+//typography
+$base-font-size: 1rem;
+$base-line-height: 1.25 * $base-font-size;
+
+$text-settings: (
+  'xs': (
+    font-size: .75rem, // 12px
+    line-height: $base-line-height
+  ),
+  'sm': (
+    font-size: .875rem, // 14px
+    line-height: $base-line-height
+  ),
+  'base': (
+    font-size: 1rem, // 16px
+    line-height: $base-line-height
+  ),
+  'md': (
+    font-size: 1.125rem, // 18px
+    line-height: $base-line-height * 2
+  ),
+  'lg': (
+    font-size: 1.25rem, // 20px
+    line-height: $base-line-height * 2
+  ),
+  'xl': (
+    font-size: 1.5rem, // 24px
+    line-height: $base-line-height * 2
+  )
+);
+
+//admin-theme 
+$theme-colors: (
+  'accent': (
+    'base': #3D948E,
+    'light': #41A297,
+    'dark': #123b39
+  ),
+  'background': (
+    'base': #F5F5F5,
+    'light': #fff,
+    'dark': #ddd
+  )
+);
+
+//dark-theme
